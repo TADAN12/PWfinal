@@ -1,0 +1,74 @@
+
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Estilos cuando se pasa el cursor sobre el botón */
+.boton:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* Estilos para el botón activo (cuando se hace clic) */
+.boton:active {
+  transform: translateY(1px);
+}
+
+body {
+  background-color: #f2f2f2;
+  /* Cambia el color de fondo según tu preferencia */
+}
+
+/* Estilos para la tabla */
+.tabla {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla td,
+.tabla th {
+  border: 2px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Estilos para las filas impares */
+.tabla tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Estilos para las filas pares */
+.tabla tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.tabla thead:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.in_file {
+  padding: 8px;
+  font-size: 14px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+/* Estilo para el campo de entrada cuando se enfoca */
+.in_file:focus {
+  outline: none; /* Quita el contorno de enfoque predeterminado */
+  border-color: #666; /* Cambia el color del borde cuando se enfoca */
+}
